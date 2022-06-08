@@ -1,9 +1,11 @@
 {
   "name": "best-practices",
   "version": "1.0.0",
-  "description": "a projet for training about github actions and coding best practices",
-  "main": "index.js",
+  "description": "a project for training about github actions and coding best practices",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "node .",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/reza-nazari/best-practices/issues"
   },
-  "homepage": "https://github.com/reza-nazari/best-practices#readme"
+  "homepage": "https://github.com/reza-nazari/best-practices#readme",
+  "dependencies": {
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41"
+  }
 }
