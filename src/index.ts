@@ -2,8 +2,8 @@ import { Creator } from "./design-patterns/factory/delivery-factory";
 import { RoadLogistics } from "./design-patterns/factory/road-logistic";
 import { SeaLogistics } from "./design-patterns/factory/sea-logistic";
 
-function clientCodeFactory(creator: Creator) {
-    console.log(creator.someOperation());
+export function clientCodeFactory(creator: Creator): string {
+    return creator.someOperation();
 }
 
 console.log('App: Launched with the RoadLogistics.');
