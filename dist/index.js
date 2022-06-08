@@ -1,5 +1,13 @@
-class Test {
-    constructor() {
-        console.log('Hello world');
-    }
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const road_logistic_1 = require("./design-patterns/factory/road-logistic");
+const sea_logistic_1 = require("./design-patterns/factory/sea-logistic");
+function clientCodeFactory(creator) {
+    console.log(creator.someOperation());
 }
+console.log('App: Launched with the RoadLogistics.');
+clientCodeFactory(new road_logistic_1.RoadLogistics());
+console.log('');
+console.log('App: Launched with the SeaLogistics.');
+clientCodeFactory(new sea_logistic_1.SeaLogistics());
+console.log('');
