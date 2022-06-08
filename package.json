@@ -1,0 +1,19 @@
+{
+  "name": "best-practices",
+  "version": "1.0.0",
+  "description": "a projet for training about github actions and coding best practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reza-nazari/best-practices.git"
+  },
+  "author": "RN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reza-nazari/best-practices/issues"
+  },
+  "homepage": "https://github.com/reza-nazari/best-practices#readme"
+}
