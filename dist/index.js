@@ -8,8 +8,10 @@ function clientCodeFactory(creator) {
 }
 exports.clientCodeFactory = clientCodeFactory;
 console.log('App: Launched with the RoadLogistics.');
-clientCodeFactory(new road_logistic_1.RoadLogistics());
-console.log('');
+let output = clientCodeFactory(new road_logistic_1.RoadLogistics());
+console.log(output);
+console.log('2');
 console.log('App: Launched with the SeaLogistics.');
-clientCodeFactory(new sea_logistic_1.SeaLogistics());
+output = clientCodeFactory(new sea_logistic_1.SeaLogistics());
+console.log(output);
 console.log('');

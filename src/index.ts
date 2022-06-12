@@ -7,11 +7,13 @@ export function clientCodeFactory(creator: Creator): string {
 }
 
 console.log('App: Launched with the RoadLogistics.');
-clientCodeFactory(new RoadLogistics());
+let output = clientCodeFactory(new RoadLogistics());
+console.log(output);
 console.log('');
 
 console.log('App: Launched with the SeaLogistics.');
-clientCodeFactory(new SeaLogistics());
+output = clientCodeFactory(new SeaLogistics());
+console.log(output);
 console.log('');
 
 
