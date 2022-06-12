@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Install modules
+      run: npm i
     - name: Run tests
-      run: npm test
-
+      run: yarn test
+      
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
